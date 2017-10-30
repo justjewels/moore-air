@@ -552,12 +552,51 @@ label {
     list-style: disc;
     margin-left: 18px;
     font-size: 14px; }
+  .section form {
+    padding-top: 1%; }
+    .section form ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #a0a0a0;
+      opacity: 0.5;
+      text-transform: uppercase; }
+    .section form ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #a0a0a0;
+      opacity: 0.5;
+      text-transform: uppercase; }
+    .section form :-ms-input-placeholder {
+      /* IE 10+ */
+      color: #a0a0a0;
+      opacity: 0.5;
+      text-transform: uppercase; }
+    .section form :-moz-placeholder {
+      /* Firefox 18- */
+      color: #a0a0a0;
+      opacity: 0.5;
+      text-transform: uppercase; }
+    .section form button.yellowbtn {
+      padding: 10px 15px !important;
+      float: right;
+      margin-top: 1% !important; }
+  .section form input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 1%;
+    color: #000101; }
+  .section form label {
+    display: none; }
+  .section form textarea {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: #000101; }
   .section .sec-title {
     margin-bottom: 40px; }
     .section .sec-title h2 {
       margin: 0;
       font-size: 45px; }
-  .section a.yellowbtn {
+  .section a.yellowbtn, .section button.yellowbtn {
     color: black;
     display: block;
     border-radius: 10px;
@@ -583,7 +622,7 @@ label {
       font-weight: 300;
       text-transform: uppercase; }
     .section.section-tickets .text h3 {
-      font-size: 32px !important;
+      font-size: 36px !important;
       padding-top: 0 !important; }
     .section.section-tickets .container .row .column .each-ticket {
       height: 310px;
@@ -646,8 +685,8 @@ label {
 			background-size: cover;
 			background-position: bottom center;
 			background-repeat: no-repeat;*/ }
-  .section.section-instagram .row .column .each-insta {
-    margin-top: 50px; }
+  .section.section-instagram .row .column {
+    padding: 0 !important; }
     .section.section-instagram .row .column .each-insta > a {
       height: 400px;
       background-size: cover;
@@ -673,19 +712,23 @@ label {
     .section.section-newsletter .row .column ::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
       color: #a0a0a0;
-      opacity: 0.5; }
+      opacity: 0.5;
+      text-transform: uppercase; }
     .section.section-newsletter .row .column ::-moz-placeholder {
       /* Firefox 19+ */
       color: #a0a0a0;
-      opacity: 0.5; }
+      opacity: 0.5;
+      text-transform: uppercase; }
     .section.section-newsletter .row .column :-ms-input-placeholder {
       /* IE 10+ */
       color: #a0a0a0;
-      opacity: 0.5; }
+      opacity: 0.5;
+      text-transform: uppercase; }
     .section.section-newsletter .row .column :-moz-placeholder {
       /* Firefox 18- */
       color: #a0a0a0;
-      opacity: 0.5; }
+      opacity: 0.5;
+      text-transform: uppercase; }
     .section.section-newsletter .row .column #submit {
       font-size: 23px;
       margin-left: 1%;
