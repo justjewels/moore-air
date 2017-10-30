@@ -552,41 +552,41 @@ label {
     list-style: disc;
     margin-left: 18px;
     font-size: 14px; }
-  .section form {
+  .section form.contact {
     padding-top: 1%; }
-    .section form ::-webkit-input-placeholder {
+    .section form.contact ::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
       color: #a0a0a0;
       opacity: 0.5;
       text-transform: uppercase; }
-    .section form ::-moz-placeholder {
+    .section form.contact ::-moz-placeholder {
       /* Firefox 19+ */
       color: #a0a0a0;
       opacity: 0.5;
       text-transform: uppercase; }
-    .section form :-ms-input-placeholder {
+    .section form.contact :-ms-input-placeholder {
       /* IE 10+ */
       color: #a0a0a0;
       opacity: 0.5;
       text-transform: uppercase; }
-    .section form :-moz-placeholder {
+    .section form.contact :-moz-placeholder {
       /* Firefox 18- */
       color: #a0a0a0;
       opacity: 0.5;
       text-transform: uppercase; }
-    .section form button.yellowbtn {
+    .section form.contact button.yellowbtn {
       padding: 10px 15px !important;
       float: right;
       margin-top: 1% !important; }
-  .section form input {
+  .section form.contact input {
     padding: 10px;
     border-radius: 10px;
     width: 100%;
     margin-bottom: 1%;
     color: #000101; }
-  .section form label {
+  .section form.contact label {
     display: none; }
-  .section form textarea {
+  .section form.contact textarea {
     padding: 10px;
     width: 100%;
     border-radius: 10px;

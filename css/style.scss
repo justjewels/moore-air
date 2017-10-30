@@ -610,7 +610,7 @@ label{
 	a.underline{text-decoration: underline;cursor: pointer;}
 	a:hover{text-decoration: none;}
 	li{list-style: disc;margin-left:18px;font-size: 14px}
-	form{
+	form.contact{
 		padding-top: 1%;
 		::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   						color: $theme-a0a0a0;opacity: 0.5;text-transform: uppercase;
@@ -626,16 +626,16 @@ label{
 					}
 		button.yellowbtn{padding: 10px 15px!important;float: right;margin-top: 1%!important}
 	}
-	form input{
+	form.contact input{
 		padding: 10px;
 		border-radius: 10px;
 		width: 100%;
 		margin-bottom: 1%;
 		color: $theme-000101;
 	}
-	form label{
+	form.contact label{
 		display: none;}
-	form textarea{
+	form.contact textarea{
 			padding: 10px;
 			width: 100%;
 			border-radius: 10px;
