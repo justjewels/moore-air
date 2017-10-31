@@ -560,7 +560,7 @@ label {
         color: black;
         background: #fce703;
         display: block;
-        border-radius: 10px;
+        border-radius: 6px;
         padding: 20px 15px 20px;
         font-size: 35px;
         line-height: 1.1;
@@ -570,7 +570,7 @@ label {
     padding-top: 2%; }
     .header .banner-tabs a {
       display: block;
-      border-radius: 10px;
+      border-radius: 6px;
       padding: 5px 15px 2px;
       background-color: rgba(64, 183, 255, 0.43);
       font-size: 31px;
