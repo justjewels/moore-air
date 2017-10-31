@@ -769,9 +769,11 @@ label {
     padding-bottom: 27%;
     background-size: cover;
     background-position: center; }
-    .section.section-about .sa-lrg-img .sali-caption h1 {
-      margin: 0;
-      font-size: 100px; }
+    .section.section-about .sa-lrg-img {
+      padding-bottom: 0 !important; }
+      .section.section-about .sa-lrg-img .sali-caption h1 {
+        margin: 0;
+        font-size: 100px; }
     .section.section-about .sidebar img {
       margin: 1.2% 0 8% 0; }
     @media (max-width: 992px) {
@@ -783,7 +785,10 @@ label {
   .section.section-individual {
     background-image: url("../images/stripe-green.png");
     background-repeat: no-repeat;
-    background-position: top center; }
+    background-position: top center;
+    padding-bottom: 0; }
+    .section.section-individual img {
+      width: 100%; }
   .section.section-news {
     padding-bottom: 10%;
     /*
@@ -793,7 +798,7 @@ label {
   .section.section-instagram {
     padding: 0 !important; }
     .section.section-instagram .row {
-      padding: 0 22px !important; }
+      padding: 0 24px !important; }
       .section.section-instagram .row .column {
         padding: 0 !important; }
         .section.section-instagram .row .column .each-insta > a {

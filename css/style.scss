@@ -892,6 +892,8 @@ label{
 							background-size: cover;
 							background-position: center;
 							.sa-lrg-img{
+								padding-bottom: 0!important;
+								
 								.sali-caption{
 									h1{
 										margin:0;
@@ -916,6 +918,10 @@ label{
 							background-image: url('../images/stripe-green.png');
 							background-repeat: no-repeat;
 							background-position: top center;
+							padding-bottom: 0;
+							img{
+									width: 100%;
+								}
 						}
 						&.section-news{
 							padding-bottom: 10%;
@@ -925,7 +931,7 @@ label{
 			background-repeat: no-repeat;*/
 		}
 		&.section-instagram{padding:  0!important;
-			.row{padding:  0 22px!important;
+			.row{padding:  0 24px!important;
 				.column{padding:  0!important;
 					.each-insta{
 						> a{
