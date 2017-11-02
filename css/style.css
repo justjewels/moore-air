@@ -587,7 +587,8 @@ label {
       margin-bottom: 12px;
       margin-top: 18px; }
     .header .banner-tabs a {
-      font-size: 27px; } }
+      font-size: 27px;
+      margin-top: 10px; } }
   @media (max-width: 767px) {
     .header {
       padding-top: 97px; }
